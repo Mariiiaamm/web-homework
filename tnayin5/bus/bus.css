@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1, .div11, .div2, .div22, .div3, .div33 {
+    width: 45px;
+    height: 7px;
+    position: relative;
+    top: 170px;
+    left: 355px;
+    background-color: rgb(90, 90, 90);
+    display: inline-block;
+}
+.div11 {
+    left: 651px;
+}
+.div2, .div22 {
+    width: 7px;
+    height: 30px;
+    top: 200px;
+    left: 257px;
+}
+.div22 {
+    left: 629px;
+}
+.div3, .div33 {
+    width: 22px;
+    height: 40px;
+    top: 240px;
+    left: 228px;
+    border-radius: 14%;
+}
+.div33 {
+    left: 585px;
+}
+.found {
+    width: 300px;
+    height: 380px;
+    position: relative;
+    top: 30px;
+    left: 400px;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: red;
+}
+.found .div4, .div44, .div5, .div55 {
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    top: 35px;
+    left: 23px;
+    background-color: rgb(227, 221, 221);
+}
+.found .div44, .div55 {
+    left: 70px;
+}
+.found .line {
+    width: 300px;
+    height: 7px;
+    position: relative;
+    top: 53px;
+    background-color: yellow;
+}
+.found .div5, .div55 {
+    height: 80px;
+    top: 120px;
+}
+.found .round1, .round2 {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    top: 220px;
+    right: 175px;
+    background-color: yellow;
+}
+.found .round2 {
+    left: 5px;
+}
+.found .box, .line1, .line2 {
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    border-radius: 8px 8px 0px 0px;
+    top: 170px;
+    left: 97px;
+    background-color: rgb(99, 98, 98);
+}
+.found .box .line1, .line2 {
+    width: 10px;
+    height: 50px;
+    top: 5px;
+    left: 25px;
+    border-radius: 0px;
+    background-color: rgb(154, 153, 153);
+}
+.found .box .line2 {
+    left: 50px;
+}
+.found .wheel1, .wheel2 {
+    width: 55px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 244px;
+    right: 65px;
+    border-radius: 0px 0px 12px 12px;
+    background-color: rgb(70, 69, 69);
+}
+.found .wheel2 {
+    left: 35px;
+}

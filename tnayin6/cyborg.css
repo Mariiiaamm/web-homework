@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1f2122;
+    font-family: "Poppins";
+}
+a{
+    text-decoration: none;
+}
+header{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #27292a;
+}
+.search {
+    background-color: #27292a;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    padding:  0 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+}
+.search input {
+    width: 140px;
+    background-color: #27292a;
+    border: none;
+    outline: none;
+    color: #666;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+  }
+.profile {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #27292a;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.profile img{
+    width: 30px;
+    border-radius: 50px;
+}
+.nav-item, .profile-item{
+    color: #666;
+    transition: 0.1s;
+}
+.nav-item:hover{
+    color: #e75e8d;
+}
+.profile:hover{
+    background-color: #e75e8d;
+}
+.profile:hover .profile-item {
+    color: #fff;
+}
+.background {
+    max-width: 960px;
+    height: 1900px;
+    background-color: #27292a;
+    border-radius: 25px;
+    padding: 60px;
+    margin: 0 auto;
+}
+.background .banner{
+    position: relative;
+    display: inline-block;
+}
+.background .banner img{
+    width: 840px;
+    height: 440px;
+    border-radius: 25px;
+}
+.background .banner .text{
+    color: white;
+    position: absolute;
+    display: inline-block;
+    bottom: 150px;
+    left: 60px;
+    line-height: 55px;
+}
+.background .banner .text h6{
+    font-size: 20px;
+}
+.background .banner .text h4{
+    font-size: 45px;
+}
+.background .banner .text h4 span{
+    color:  #EC6090;
+}
+.background .banner .browse{
+    position: absolute;
+    display: inline-block;
+    bottom: 80px;
+    left: 60px;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    border-radius: 30px;
+    width: 160px;
+    height: 50px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.background .banner .browse-item{
+    color: #FFFFFF;
+    transition: 0.1s;
+}
+.background .banner .browse:hover{
+    background-color: #FFFFFF;
+}
+.background .banner .browse:hover .browse-item{
+    color: #e75e8d;
+}
+.background .popular, .library{
+    background-color: #1f2122;
+    max-width: 960px;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    top: 60px;
+}
+.background .popular .first, .background .library .first{
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 600;
+}
+.background .popular .second, .background .library .second{
+    color: #EC6090;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+.background .popular .box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    top: 25px;
+    padding: 0px 0px 50px;
+}
+.background .popular .box .popular-01, .popular-02, .popular-03, .popular-04, .popular-07, .popular-08{
+    background-color: #27292a;
+    padding: 25px 14px 50px 16px;
+    border-radius: 25px;
+}
+.background .popular .box .popular-01 img, .popular-02 img, .popular-03 img, .popular-04 img, .popular-07 img, .popular-08 img{
+    width: 145px;
+    border-radius: 25px;
+}
+.background .popular .box .popular-05-06{
+    background-color: #27292a;
+    padding: 25px 15px 50px 15px;
+    border-radius: 25px;
+    display: flex;
+    gap: 20px;
+}
+.background .popular .box .popular-05-06 .popular-05 img, .popular-06 img{
+    width: 165px;
+    border-radius: 25px;
+}
+.background .popular .box header{
+    width: 150px;
+    height: 40px;
+    padding: 0px;
+}
+.background .popular .box header .header-left{
+    width: 90px;
+    height: 40px;
+    display: inline-block;
+}
+.background .popular .box header .header-right{
+    text-align: right;
+    width: 70px;
+    height: 40px;
+    display: inline-block;
+    padding: 15px 8px;
+}
+.background .popular .box header .header-left h4{
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.background .popular .box header .header-left span{
+    color: #666666;
+    font-size: 12px;
+}
+ul{
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+#star{
+    color: yellow;
+}
+#download{
+    color: #EC6090;
+}
+.background .popular .discover{
+    position: absolute;
+    display: inline-block;
+    left: 340px;
+    background-color: #e75e8d;
+    padding: 10px 22px;
+    border-radius: 30px;
+    width: 180px;
+    height: 45px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.background .popular .discover-item{
+    color: #FFFFFF;
+    transition: 0.1s;
+}
+.background .popular .discover:hover{
+    background-color: #FFFFFF;
+}
+.background .popular .discover:hover .discover-item{
+    color: #e75e8d;
+}
+.background .library{
+    top: 90px;
+}
+.background .library .list1, .list2, .list3{
+    padding: 30px 0px;
+    display: flex;
+}
+.background .library img{
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.background .library .line{
+    width: 780px;
+    height: 1px;
+    background-color: #27292a;
+}
+.background .library ul{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.background .library ul h4{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.background .library ul span{
+    color: #666666;
+    font-size: 14px;
+}
+.background .library ul .download-01, .download-03{
+    width: 140px;
+    height: 45px;
+    background-color:#1f2122;
+    border-radius: 25px;
+    border: 1px solid #666666;
+    cursor: pointer;
+    padding: 8px 24px;
+}
+.background .library ul .download-item{
+    color: #666666;
+}
+.background .library ul .download-02{
+     background-color: #1f2122;
+     border-radius: 25px;
+     width: 130px;
+     height: 45px;
+     border: 1px solid #EC6090;
+     cursor: pointer;
+     padding: 8px 20px;
+     margin-right: 10px;
+     transition: 0.1s;
+     text-align: center;
+}
+.background .library ul .download-item2{
+    color: #e75e8d;
+}
+.background .library ul .download-02:hover{
+    background-color: #FFFFFF;
+}
+.background .library .view{
+    position: absolute;
+    display: inline-block;
+    left: 340px;
+    background-color: #e75e8d;
+    padding: 10px 22px;
+    border-radius: 30px;
+    width: 180px;
+    height: 45px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.background .library .view-item{
+    color: #FFFFFF;
+    transition: 0.1s;
+}
+.background .library .view:hover{
+    background-color: #FFFFFF;
+}
+.background .library .view:hover .view-item{
+    color: #e75e8d;
+}
+p{
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    margin: 40px 0px;
+    font-size: 15px;
+}
+p .gaming-item, .template-item{
+    transition: 0.1s;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+p span .gaming-item:hover{
+    color: #EC6090;
+}
+p span .template-item:hover{
+    color: #EC6090;
+}
