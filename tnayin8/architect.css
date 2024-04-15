@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width: 100%;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+.main, .nav-item1, .nav-item2, .nav-item3{
+    letter-spacing: 4px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: white;
+}
+.main{
+    margin: 10px 0px 0px 10px;
+}
+.nav-item1{
+    margin: 10px 0px 0px 510px;
+}
+.main:hover, .nav-item1:hover, .nav-item2:hover, .nav-item3:hover{
+    background-color: rgb(213, 209, 209);
+}
+.banner img{
+    max-width: 100%;
+    vertical-align: middle;
+    background-position: center;
+    margin-top: 10px;
+}
+.banner{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.banner .text{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 280px 0px 0px 400px;
+    font-size: 36px;
+    font-family: Segoe UI;
+    color: white;
+    letter-spacing: 4px;
+}
+.banner .text span{
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.707);
+    margin-right: 10px;
+}
+h3{
+    font-family: Verdana;
+    padding: 45px 35px;
+    font-size: 24px;
+    font-weight: 400;
+}
