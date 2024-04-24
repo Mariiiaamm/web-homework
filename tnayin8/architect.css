@@ -53,7 +53,20 @@ header{
 }
 h3{
     font-family: Verdana;
-    padding: 45px 35px;
+    padding: 45px 38px;
     font-size: 24px;
     font-weight: 400;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+}
+/* .div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8 */
+.div1 img, .div2 img, .div3 img, .div4 img, .div5 img, .div6 img, .div7 img, .div8 img{
+    width: 240px;
+}
+.div1 img, .div5 img{
+    margin-left: 40px;
 }
