@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Josefin Sans;
+}
+.banner{
+    position: relative;
+    display: inline-block;
+}
+.banner img{
+    height: 540px;
+    width: 1080px;
+    filter: brightness(40%);
+    background-repeat: no-repeat;
+}
+.logo img{
+    position: absolute;
+    display: inline-block;
+    bottom: 480px;
+    right: 882px;
+    height: 36px;
+    width: 125px;
+    filter: brightness(100%);
+}
+nav{
+    position: absolute;
+    bottom: 490px;
+    right: 60px;
+    font-size: 11.3px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0px 20px;
+    position: relative;
+    width: max-content;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;  
+}
+.menu-border {
+    margin-top: 5px;
+    width: 0%;
+    height: 1.5px;
+    background-color: #f44336;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .4s;
+}
+li:hover .menu-border {
+    width: 100%;
+}
+.welcome{
+    position: absolute;
+    bottom: 347px;
+    left: 167px;
+    font-size: 30px;
+    color: #fff;
+}
+.banner .description .p1{
+    position: absolute;
+    bottom: 240px;
+    color: #fff;
+    font-size: 15px;
+    left: 70px;
+    right: 70px;
+    text-align: center;
+    line-height: 27px;
+}
+button{
+    font-family: Arial;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 160px;
+    left: 430px;
+    color: #fff;
+    font-size: 13px;
+    background-color: transparent;
+    text-align: center;
+    width: 220px;
+    height: 45px;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover {
+    background-color: rgb(79, 144, 229);
+    border-style: none;
+}
+h2{
+    margin: 90px 0px 20px 410px;
+    font-size: 35px;
+}
+.p2{
+    padding: 0px 70px;
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 27px;
+    color: #777;
+    text-align: center;
+}
+.box1, .box2, .box3{
+    background-color: #fff3f3;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+h3{
+    font-size: 20px;
+    line-height: 35px;
+}
+.p3{
+    margin-top: 20px;
+    font-weight: 350;
+    font-size: 15px;
+    color: #777;
+    line-height: 22px;
+}
+.imgs-box{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    text-align: center;
+}
+.img-box{
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.img-box img{
+    width: 300px;
+}
+.img-text{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.img-text:hover{
+ background: rgba(244, 67, 54, 0.2);;
+}
+h4{
+    width:100% ;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition:0.4s ;
+    opacity: 0;
+}
+.img-text:hover h4{
+    bottom: 60%;
+    opacity: 1;
+}
+.boxes2 .box1, .boxes2 .box2, .boxes2 .box3{
+    background: none;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    padding: 0px;
+}
+.boxes2 .box2, .boxes2 .box3{
+    margin-left: 20px;
+}
+.box1 img, .box2 img, .box3 img{
+    width: 300px;
+    border-radius: 10px;
+}
+.boxes2 h3{
+    margin-top: 20px;
+}
+.boxes3 .box1, .boxes3 .box2{
+    position: relative;
+    width: 470px;
+    height: 220px;
+    text-align: justify;
+    padding: 0px;
+}
+.boxes3 .box1 img, .boxes3 .box2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 30px 30px 130px 30px ;
+    position: absolute;
+}
+.boxes3 .box1 .p3, .boxes3 .box2 .p3{
+    position: absolute;
+    margin: 30px 40px 40px 100px;
+}
+.boxes3 .box1 h3, .boxes3 .box2 h3{
+    position: absolute;
+    margin: 150px 40px 40px 100px;
+}
+#banner2 img{
+    margin-top: 90px;
+    height: 460px;
+}
+#banner2 #w1{
+    top: 200px;
+    font-size:20px;
+    left: 190px;
+}
+#banner2 #w2{
+    top: 300px;
+    font-size: 20px;
+    left: 300px;
+}
+#b1{
+    top: 400px;
+    width: 150px;
+    left: 455px;
+}
+#h2{
+    font-size: 25px;
+    margin-left: 490px;
+    margin-bottom: 50px;
+}
+#p2 a{
+    text-decoration: none;
+}
+#p2{
+    margin-bottom: 20px;
+}
+#text{
+    margin-left: 330px;
+}
