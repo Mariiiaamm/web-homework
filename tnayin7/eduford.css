@@ -8,6 +8,8 @@ html{
 }
 body{
     font-family: Josefin Sans;
+    max-width: 1080px;
+    margin: auto;
 }
 .banner{
     position: relative;
@@ -17,7 +19,6 @@ body{
     height: 540px;
     width: 1080px;
     filter: brightness(40%);
-    background-repeat: no-repeat;
 }
 .logo img{
     position: absolute;
@@ -139,7 +140,7 @@ h3{
 }
 .img-box{
     margin-top: 30px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
