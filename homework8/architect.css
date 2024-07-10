@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+}
+header{
+    max-width: 100%;
+}
+.main, .nav-item1, .nav-item2, .nav-item3{
+    letter-spacing: 4px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: white;
+}
+.main{
+    margin: 10px 0px 0px 10px;
+}
+.nav-item1{
+    margin: 10px 0px 0px 510px;
+}
+.main:hover, .nav-item1:hover, .nav-item2:hover, .nav-item3:hover{
+    background-color: rgb(213, 209, 209);
+}
+.banner img{
+    max-width: 100%;
+    vertical-align: middle;
+    background-position: center;
+    margin-top: 10px;
+    background-size: cover;
+}
+.banner{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.banner .text{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 280px 0px 0px 400px;
+    font-size: 36px;
+    font-family: Segoe UI;
+    color: white;
+    letter-spacing: 4px;
+}
+.banner .text span{
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.707);
+    margin-right: 10px;
+}
+h3{
+    padding: 60px 38px 20px 38px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8{
+    position: relative;
+    display: flex;
+}
+.div1 img, .div2 img, .div3 img, .div4 img, .div5 img, .div6 img, .div7 img, .div8 img{
+    width: 240px;
+}
+.div1 img, .div5 img{
+    margin-left: 40px;
+}
+.line{
+    width: 1005px;
+    height: 1px;
+    background-color:rgb(242, 242, 242);
+    margin-left: 40px;
+}
+.type1, .type2, .type3, .type4, .type5, .type6, .type7, .type8{
+    width: 150px;
+    height: 38px;
+    background-color: black;
+    position:absolute;
+    display: flex;
+}
+.type1, .type5{
+    margin-left: 40px;
+}
+.type2, .type3, .type4, .type6, .type7, .type8{
+    width: 120px;
+}
+.type1 p, .type2 p, .type3 p, .type4 p, .type5 p, .type6 p, .type7 p, .type8 p{
+    font-size: 15px;
+    color: white;
+    padding: 8px 15px;
+}
+.type3 p, .type7 p{
+    padding: 8px 20px;
+}
+.type4 p, .type8 p{
+   padding: 8px 16px;
+}
+.lorem{
+    width: 1005px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.john, .jane, .mike, .dan{
+    display: flex;
+    position: absolute;
+    margin-top: 180px;
+    width: 240px;
+    flex-direction: column;
+}
+.john h3, .jane h3, .mike h3, .dan h3{
+    padding: 0px;
+}
+.john{
+    margin-left: 38px;
+}
+#box_new .div1 img, #box_new .div2 img, #box_new .div3 img, #box_new .div4 img, #box_new .div5 img, #box_new .div6 img, #box_new .div7 img, #box_new .div8 img{
+    filter: grayscale(75%);
+}
+.john h4, .jane h4, .mike h4, .dan h4{
+    color: rgb(144, 141, 141);
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.john p, .jane p, .mike p, .dan p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+button{
+    margin-top: 15px;
+    padding: 8px 16px;
+    background-color:rgba(211, 211, 211, 0.553);
+    font-size: 16px;
+    border: none;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color:rgb(182, 182, 182);
+    cursor: pointer;
+}
+#h3_new{
+    margin-top: 280px;
+}
+input{
+    width: 1005px;
+    margin-left: 38px;
+    height: 40px;
+    font-size: 18px;
+    padding: 0px 8px;
+    margin-bottom: 15px;
+}
+#button_new{
+    background-color: black;
+    color: white;
+    width: 150px;
+    margin-left: 38px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding: 8px 10px;
+    margin-top: 30px;
+    border: none;
+}
+#button_new:hover{
+    color: black;
+    background-color: grey;
+    cursor: pointer;
+}
+#banner_new img{
+    width: 1005px;
+    margin-left: 38px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#banner_last{
+    height: 85px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+#banner_last p{
+    margin-top: 30px;
+}
+#banner_last p a{
+    color: white;
+}
+#banner_last p a:hover{
+    color: green;
+}
+@media screen and (min-width: 844px) and (max-width: 1045px){
+    .nav-item1{
+        margin: 0px 0px 0px 250px;
+    }
+    .banner .text{
+        margin: 190px 0px 0px 290px;
+    }
+    .div1 img, .div2 img, .div3 img, .div4 img, .div5 img, .div6 img, .div7 img, .div8 img{
+        width: 370px;
+    }
+    .div1 img, .div3 img, .div5 img, .div7 img {
+        margin-left: 40px;
+    }
+    .line{
+        width: 750px;
+    }
+    .type1, .type3, .type5, .type7{
+        margin-left: 40px;
+    }
+    .lorem{
+        width: 750px;
+    }
+    .john h3, .jane h3, .mike h3, .dan h3{
+        padding: 10px 0px;
+        margin-top: 60px;
+    }
+    .john, .mike{
+        margin-left: 38px;
+    }
+    #box_new .div1, #box_new .div2{
+        margin-bottom: 260px;
+    }
+    input{
+        width: 750px;
+    }
+    #banner_new{
+        width: 750px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 844px){
+    .nav-item1{
+        margin: 0px 0px 0px 200px;
+    }
+    .banner .text{
+        margin: 170px 0px 0px 270px;
+    }
+    .div1 img, .div2 img, .div3 img, .div4 img, .div5 img, .div6 img, .div7 img, .div8 img{
+        width: 320px;
+    }
+    .div1 img, .div3 img, .div5 img, .div7 img {
+        margin-left: 40px;
+    }
+    .line{
+        width: 650px;
+    }
+    .type1, .type3, .type5, .type7{
+        margin-left: 40px;
+    }
+    .lorem{
+        width: 650px;
+    }
+    .john h3, .jane h3, .mike h3, .dan h3{
+        padding: 10px 0px;
+        margin-top: 60px;
+    }
+    .john, .mike{
+        margin-left: 38px;
+    }
+    #box_new .div1, #box_new .div2{
+        margin-bottom: 280px;
+    }
+    input{
+        width: 650px;
+    }
+    #banner_new{
+        width: 650px;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 767px){
+    .nav-item1{
+        margin: 0px 0px 0px 0px;
+    }
+    .banner .text{
+        margin: 120px 0px 0px 180px;
+        font-size: 25px;
+    }
+    .div1 img, .div2 img, .div3 img, .div4 img, .div5 img, .div6 img, .div7 img, .div8 img{
+        width: 490px;
+        margin-left: 40px;
+    }
+    .line{
+        width: 490px;
+    }
+    .type1, .type2, .type3, .type4, .type5, .type6, .type7, .type8{
+        margin-left: 40px;
+    }
+    .lorem{
+        width: 490px;
+    }
+    .john h3, .jane h3, .mike h3, .dan h3{
+        padding: 10px 0px;
+        margin-top: 160px;
+    }
+    .john, .mike, .jane, .dan{
+        margin-left: 38px;
+    }
+    #box_new .div1, #box_new .div2, #box_new .div3, #box_new .div4{
+        margin-bottom: 250px;
+    }
+    #box_new .div4{
+        margin-bottom: 0px;
+    }
+    .john p, .jane p, .mike p, .dan p{
+        font-size: 15px;
+        width: 490px;
+    }
+    button{
+        width: 490px;
+    }
+    input{
+        width: 490px;
+    }
+    #banner_new{
+        width: 490px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .main, .nav-item1, .nav-item2, .nav-item3{
+        letter-spacing: 1px;
+        font-size: 10px;
+        display: inline-block;
+        padding: 4px 8px;
+        background-color: white;
+    }
+    .main{
+        margin: 10px 0px 0px 2px;
+    }
+    .nav-item1{
+        margin: 0px 0px 0px 0px;
+    }
+    .banner .text span{
+        padding: 5px 8px;
+    }
+    .banner .text{
+        margin: 80px 0px 0px 80px;
+        font-size: 10px;
+    }
+    .div1 img, .div2 img, .div3 img, .div4 img, .div5 img, .div6 img, .div7 img, .div8 img{
+        width: 250px;
+        margin-left: 40px;
+    }
+    .line{
+        width: 250px;
+    }
+    .type1, .type2, .type3, .type4, .type5, .type6, .type7, .type8{
+        margin-left: 40px;
+    }
+    .lorem{
+        width: 250px;
+    }
+    .john h3, .jane h3, .mike h3, .dan h3{
+        padding: 10px 0px;
+    }
+    .john, .mike, .jane, .dan{
+        margin-left: 38px;
+    }
+    #box_new .div1, #box_new .div2, #box_new .div3, #box_new .div4{
+        margin-bottom: 270px;
+    }
+    #box_new .div4{
+        margin-bottom: 0px;
+    }
+    .john p, .jane p, .mike p, .dan p{
+        font-size: 15px;
+        width: 250px;
+    }
+    button{
+        width: 250px;
+    }
+    input{
+        width: 250px;
+    }
+    #banner_new{
+        width: 250px;
+    }
+}
